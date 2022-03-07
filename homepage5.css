@@ -1,0 +1,225 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+/* ------------------------------------------ */
+#bg {
+    background-image: url('bg.jpg');
+ /* Full height */
+ height: 100%;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+/* ------------------------------------------ */
+img {
+    margin-top: 1em;
+}
+.all-content{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+img {
+    
+}
+/* ####################################### */
+/* ----------------------------------------- */
+.h-list{
+    color: white;
+    
+}
+/* -------------------------------------------*/
+.h-list a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: block;
+    background-color: gray;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+/* -------------------------------------------*/
+
+ul {
+    padding-top: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+/* ------------------------------------------------ */
+li {
+   /* display: inline;*/
+    float: left;
+}
+/* ------------------------------------------- */
+/*
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+*/
+/* -------------------------------------- */
+li a:hover{
+    background-color: darkorange;
+}
+/* ------------------------------------------ */
+/* ########################################### */
+
+.left-upper {
+    margin-top: 0.5em;
+    background-color: white;
+    float: left;
+    width: 60%;
+    border: 3px solid gray;
+    
+}
+
+.left-upper, h1
+p {
+    padding: 1em;
+}
+
+.left-upper h1{
+    color: red;
+
+}
+
+#bold-line {
+    color: gray;
+    font-weight: bold;
+    font-size: larger;
+}
+.left-upper a{
+    text-decoration: none;
+    color: red;
+}
+
+/* ########################################## */
+
+.left-down {
+    float: left;
+    background-color: white;
+    margin-top: 0.5em;
+    width: 60%;
+    border: 3px solid gray;
+
+}
+
+.left-down, h1
+p {
+    padding: 1em;
+}
+
+.left-down a{
+    color: red;
+    text-decoration: none;
+}
+
+/* ############################################ */
+
+.right-upper {
+    width: 28em;
+    background-color: white;
+    padding: 1.5em;
+   /* border:2px solid gray;
+    border-radius: 3px; */
+    border: 3px solid gray;
+
+}
+
+.right-upper a{
+    color: black;
+    text-decoration: none;
+}
+
+.right-middle{
+    width: 28em;
+    background-color: white;
+    padding: 1.5em;
+    margin-top: 5px;
+   /* border:2px solid gray;
+    border-radius: 3px; */
+    border: 3px solid gray;
+
+}
+
+.right-middle, a{
+    color: black;
+    text-decoration: none;
+}
+
+.right-lower{
+    width: 28em;
+    background-color: white;
+    padding: 1.5em;
+    margin-top: 5px;
+  /*  border:2px solid gray;
+    border-radius: 3px;
+        border: 3px solid gray;
+
+    */
+    border: 3px solid gray;
+
+}
+
+.right-lower, a{
+    color: black;
+    text-decoration: none;
+}
+
+.right-part {
+    float: right;
+    margin-top: -14em;
+}
+
+.left-upper:hover{
+    background-color: blanchedalmond;
+    height: 200px;
+}
+.left-down:hover{
+    background-color: blanchedalmond;
+    height: 200px;
+
+}
+.right-upper:hover{
+    background-color: blanchedalmond;
+    height: 100px;
+
+}
+.right-middle:hover{
+    background-color: blanchedalmond;
+    height: 100px;
+
+}
+.right-lower:hover{
+    background-color: blanchedalmond;
+    height: 100px;
+}
+
+.footer-c{
+    position: fixed;
+    background-color: gray;   
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: white;
+    padding-left: 1em;
+    font-size: 1em;
+    margin-right: 5em;
+
+}
+footer a{
+    color: rgb(16, 216, 243);
+}
+
+
